@@ -8,3 +8,8 @@ export const UserDictionaryOptionDeliveryStatus: IUserDictionaryOption[] = [
 	{ code: 40, description: "ДТ выпущена"},
 	{ code: 50, description: "Поставка закрыта"}
 ];
+
+export const UserDictionaryOptioMovementMode: IUserDictionaryOption[] = [
+	{ id: 1, description: "Импорт" },
+	{ id: 2, description: "Экспорт" }
+];
