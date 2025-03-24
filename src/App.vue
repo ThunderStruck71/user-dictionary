@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import UserDictionary from './components/UserDictionary/UserDictionary.vue';
-import { UserDictionaryOptioMovementMode, UserDictionaryOptionDeliveryStatus } from './components/UserDictionary/UserDictionaryOption.constants'
+import { UserDictionaryOptionMovementMode, UserDictionaryOptionDeliveryStatus } from './components/UserDictionary/UserDictionaryOptions'
 </script>
 
 <template>
@@ -15,7 +15,7 @@ import { UserDictionaryOptioMovementMode, UserDictionaryOptionDeliveryStatus } f
 
   <main>
     <UserDictionary title="Статус поставки" sub-title="Статус" :options="UserDictionaryOptionDeliveryStatus" />
-    <UserDictionary title="Режим перемещения" sub-title="Режим" :options="UserDictionaryOptioMovementMode" />
+    <UserDictionary title="Режим перемещения" sub-title="Режим" :options="UserDictionaryOptionMovementMode" />
   </main>
 </template>
 
