@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import UserDictionary from './components/UserDictionary/UserDictionary.vue';
+import { UserDictionaryOptionDeliveryStatus } from './components/UserDictionary/UserDictionaryOption.constants'
 </script>
 
 <template>
@@ -12,7 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <main>
-    Hello
+    <UserDictionary title="Статус поставки" sub-title="Статус" :options="UserDictionaryOptionDeliveryStatus" />
   </main>
 </template>
 
