@@ -1,6 +1,6 @@
 # user-dictionary
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a small application on creating User Dictionaries.
 
 ## Recommended IDE Setup
 
