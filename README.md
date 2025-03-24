@@ -1,6 +1,6 @@
 # user-dictionary
 
-This is a small application on creating User Dictionaries.
+This is a small application for creating User Dictionaries.
 
 ## Recommended IDE Setup
 
