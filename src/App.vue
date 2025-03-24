@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppHeader from './components/UserDictionary/AppHeader/AppHeader.vue';
 import UserDictionary from './components/UserDictionary/UserDictionary.vue';
 import { UserDictionaryOptionMovementMode, UserDictionaryOptionDeliveryStatus } from './components/UserDictionary/UserDictionaryOptions'
 </script>
@@ -10,11 +11,7 @@ import { UserDictionaryOptionMovementMode, UserDictionaryOptionDeliveryStatus } 
         <v-responsive class="align-centerfill-height mx-auto" max-width="900">
           <v-img class="mb-4" height="150" src="../src/assets/logo.svg" />
 
-          <div class="text-center">
-            <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
-
-            <h1 class="text-h2 font-weight-bold">{{ "User dictionary app" }}</h1>
-          </div>
+          <AppHeader msg="User dictionary app" />
 
           <div class="py-4" />
 
